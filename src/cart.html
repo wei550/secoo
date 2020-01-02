@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>寺库 - 我的购物车</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js" data-main="script/require.config" id="current-page" target-module="script/cart.js" defer async="true" ></script>
+</head>
+
+<body>
+    <!-- head -->
+    <header id="Header"></header>
+    <!-- 购物车列表 -->
+    <section id="cartList">
+        <section class="cartListMain">
+            <table cellspacing="0" cellpadding="0" border="0">
+                <thead>
+                    <tr>
+                        <th width="75">
+                            <input type="checkbox" id="choseAll">
+                            <label for="choseAll">全选</label>
+                        </th>
+                        <th width="375">商品名称</th>
+                        <th width="90">库存</th>
+                        <th width="90">会员价</th>
+                        <th width="140">数量</th>
+                        <th width="110">金额小计</th>
+                        <th width="110">操作</th>
+                    </tr>
+                </thead>
+                <tbody id="Tbody">
+                   
+                </tbody>
+            </table>
+            <div class="cartTotal">
+                    <p>商品数量总计：<span id="totalamount">0</span>&nbsp;件</p>
+                    <p>商品金额总计（不含税金和运费）:<strong>￥<span id="totalprice">0.00</span></strong></p>
+                    <a href="javascript:;">立即结算</a>
+                </div>
+        </section>
+    </section>
+    <!-- 底部 -->
+    <footer id="loginFooter"></footer>  
+</body>
+
+</html>

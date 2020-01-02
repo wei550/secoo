@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>寺库 - 注册</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js" data-main="script/require.config" id="current-page" target-module="script/register.js" defer async="true" ></script>
+</head>
+
+<body>
+    <!-- 头部 -->
+    <header id="loginHead"></header>
+    <!-- 中部 -->
+    <section id="loginMiddle">
+        <div class="middleMain">
+            <form class="registerForm" action="../php/register.php" method="POST">
+                <label for="">用户名</label><strong></strong><br>
+                <input type="text" placeholder="请输入4-12位用户名" name="username"><br>
+                <label for="">密码</label><strong></strong><br>
+                <input type="password" placeholder="请输入6-12位密码" name="password"><br>
+                <label for="">确认密码</label><strong></strong><br>
+                <input type="password" placeholder="请再次输入密码"><br>
+                <input type="checkbox" id="protocol">
+                <a href="javascript:;">已阅读并同意《寺库网用户注册协议》《隐私权政策》</a><br>
+                <input type="submit" value="立即注册" name="submit" class="regbtn">
+                <div class="toLogin">
+                    <span>已经是寺库会员?</span>
+                    <a href="login.html" class="lg">立即登录</a>
+                </div>
+            </form>
+        </div>
+    </section>
+    <!-- 注册协议 -->
+    <!-- <aside id="protocolInfo">
+        <div class="protocolCont">
+            <div class="protocolTitle">
+                <span>寺库网注册协议</span><strong>X</strong>
+            </div>
+            <div class="protocolMain">
+        
+            <div class="protocolConfirm">
+                <p>提示：本《寺库网用户注册协议》中约定有关争议管辖应提交寺库注册地人民法院。</p>
+                <button>同意并继续</button>
+            </div>
+        </div>
+    </aside> -->
+    <!-- 底部 -->
+    <footer id="loginFooter"></footer>
+</body>
+
+</html>

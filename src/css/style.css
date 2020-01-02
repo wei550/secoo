@@ -1,0 +1,1626 @@
+ /* 登陆页 */
+ /* 登录页头部 */
+ #loginHead {
+     width     : 100%;
+     height    : 70px;
+     background: #000;
+ }
+
+ #loginHead .headMain {
+     width : 1200px;
+     height: 100%;
+     margin: 0 auto;
+ }
+
+ #loginHead .headMain .hleft {
+     width : 30px;
+     height: 100%;
+     float : left;
+ }
+
+ #loginHead .headMain .hright {
+     width : 210px;
+     height: 100%;
+     float : right;
+ }
+
+ #loginHead .headMain .hright a {
+     line-height: 70px;
+     float      : left;
+     margin-left: 22px;
+     color      : #999;
+ }
+
+ #loginHead .headMain .hright a:hover {
+     color          : #c69c6d;
+     text-decoration: none;
+ }
+
+ /* 登录页中部 */
+ #loginMiddle {
+     width     : 100%;
+     height    : 720px;
+     padding   : 30px 0;
+     background: #fdf8f4;
+ }
+
+ #loginMiddle .middleMain {
+     width          : 1200px;
+     height         : 100%;
+     margin         : 0 auto;
+     background     : url(../img/loginbg.jpg);
+     background-size: 1200px 720px;
+ }
+
+ #loginMiddle .middleMain .loginForm {
+     width     : 310px;
+     padding   : 30px 35px;
+     margin-top: 110px;
+     background: #fff;
+     float     : right;
+     box-shadow: 0 0 23px rgba(0, 0, 0, 0.1);
+ }
+
+ .loginForm .ewmtitle {
+     width        : 100%;
+     height       : 20px;
+     margin-bottom: 50px;
+     user-select  : none;
+ }
+
+ .loginForm .ewmtitle li {
+     width     : 155px;
+     height    : 100%;
+     text-align: center;
+     float     : left;
+     font-size : 18px;
+     color     : #666;
+     cursor    : pointer;
+ }
+
+ .loginForm .ewmtitle .on {
+     color: #f19108;
+ }
+
+ .loginForm .ewmcont {
+     width: 310px;
+ }
+
+ .loginForm .ewmcont .psd {
+     width     : 100%;
+     background: #fff;
+     display   : block;
+ }
+
+ .loginForm .ewmcont .psd input {
+     width        : 100%;
+     height       : 50px;
+     margin-bottom: 10px;
+     border       : 1px solid #ccc;
+     text-indent  : 10px;
+     outline      : none;
+ }
+
+ .loginForm .ewmcont .psd .active {
+     border    : 1px solid rgb(255, 173, 119);
+     box-shadow: 0 1px 1px rgba(0, 0, 0, .075), 0 0 5px rgba(240, 127, 5, .4);
+ }
+
+ .loginForm .ewmcont .psd .yzm {
+     width  : 120px;
+     display: none;
+ }
+
+ .loginForm .ewmcont .psd #yzmimg {
+     width         : 85px;
+     height        : 40px;
+     display       : none;
+     vertical-align: middle;
+     border        : 1px solid #ccc;
+     margin-left   : 10px;
+     cursor        : pointer;
+     text-align    : center;
+     font-size     : 20px;
+     line-height   : 40px;
+ }
+
+ .loginForm .ewmcont .psd #rememberMe {
+     width : 14px;
+     float : left;
+     cursor: pointer;
+ }
+
+ .loginForm .ewmcont .psd label {
+     display    : block;
+     float      : left;
+     height     : 50px;
+     line-height: 50px;
+     user-select: none;
+     cursor     : pointer;
+ }
+
+ .loginForm .ewmcont .psd #loginBtn {
+     background : #f19108;
+     font-size  : 16px;
+     color      : #fff;
+     cursor     : pointer;
+     line-height: 50px;
+ }
+
+ .loginForm .ewmcont .ewm {
+     width     : 100%;
+     height    : 250px;
+     display   : none;
+     text-align: center;
+ }
+
+ .loginForm .ewmcont .ewm img {
+     height: 192px;
+ }
+
+ .loginForm .ewmcont .ewm p {
+     font-size: 14px;
+ }
+
+ #loginMiddle .middleMain .partnerLogin {
+     width         : 310px;
+     height        : 60px;
+     padding-bottom: 30px;
+ }
+
+ .partnerLogin p {
+     width : 100%;
+     height: 30px;
+     color : #666;
+ }
+
+ .partnerLogin p a {
+     float          : left;
+     height         : 30px;
+     text-decoration: none;
+ }
+
+ .partnerLogin p a:nth-child(2) {
+     margin-left: 10px;
+ }
+
+ .partnerLogin p span {
+     line-height   : 30px;
+     vertical-align: top
+ }
+
+ .partnerLogin p img {
+     width: 24px;
+ }
+
+ #loginMiddle .middleMain .toRegister {
+     width : 310px;
+     height: 20px;
+ }
+
+ #loginMiddle .middleMain .toRegister .zc {
+     color          : #f19108;
+     text-decoration: none;
+ }
+
+ #loginMiddle .middleMain .toRegister .wjmm {
+     float: right;
+ }
+
+ /* 登录底部 */
+ #loginFooter {
+     width     : 100%;
+     background: #ffb81c;
+     padding   : 10px 0;
+     overflow  : hidden;
+ }
+
+ #loginFooter .footerMain {
+     width   : 1200px;
+     margin  : 0 auto;
+     overflow: hidden;
+ }
+
+ #loginFooter .footerMain .footerLeft {
+     width : 325px;
+     height: 260px;
+     float : left;
+ }
+
+ #loginFooter .footerMain .leftTitle {
+     width     : 100%;
+     height    : 20px;
+     font-size : 18px;
+     text-align: left;
+ }
+
+ #loginFooter .footerMain .leftCont {
+     width       : 60%;
+     height      : 140px;
+     margin-top  : 30px;
+     column-count: 2;
+ }
+
+ #loginFooter .footerMain .leftCont li {
+     height     : 33px;
+     line-height: 33px;
+     font-size  : 14px;
+ }
+
+ #loginFooter .footerMain .footerCenter {
+     width : 550px;
+     height: 260px;
+     float : left;
+ }
+
+ #loginFooter .footerMain .centerTitle {
+     width     : 100%;
+     height    : 20px;
+     font-size : 18px;
+     text-align: center;
+ }
+
+ #loginFooter .footerMain .centerCont {
+     width     : 100%;
+     height    : 240px;
+     background: url(../img/footer-logo.png);
+     position  : relative;
+ }
+
+ #loginFooter .footerMain .centerCont .aWeibo {
+     font-size: 14px;
+     position : absolute;
+     top      : 107px;
+     left     : 100px;
+ }
+
+ #loginFooter .footerMain .centerCont .aWeibo:hover+.imgWeibo {
+     display: block;
+ }
+
+ #loginFooter .footerMain .centerCont .imgWeibo {
+     position: absolute;
+     top     : 40px;
+     left    : -80px;
+     display : none;
+ }
+
+ #loginFooter .footerMain .centerCont .aWechat {
+     font-size: 14px;
+     position : absolute;
+     top      : 107px;
+     right    : 100px;
+ }
+
+ #loginFooter .footerMain .centerCont .aWechat:hover+.imgWechat {
+     display: block;
+ }
+
+ #loginFooter .footerMain .centerCont img {
+     position: absolute;
+     top     : 40px;
+     right   : 140px;
+     display : none;
+ }
+
+ #loginFooter .footerMain .footerRight {
+     width : 325px;
+     height: 260px;
+     float : left;
+ }
+
+ #loginFooter .footerMain .rightTitle {
+     width     : 100%;
+     height    : 20px;
+     font-size : 18px;
+     text-align: right;
+ }
+
+ #loginFooter .footerMain .rightCont {
+     width     : 30%;
+     height    : 140px;
+     margin-top: 30px;
+     float     : right;
+ }
+
+ #loginFooter .footerMain .rightCont li {
+     height     : 33px;
+     line-height: 33px;
+     font-size  : 14px;
+     text-align : right;
+ }
+
+ #loginFooter .footerMain .footerInfo {
+     width     : 100%;
+     font-size : 14px;
+     margin-top: 30px;
+     float     : left;
+ }
+
+ #loginFooter .footerMain .footerInfo p {
+     margin-top: 20px;
+ }
+
+ #loginFooter .footerMain .footerInfo p span {
+     margin-left: 20px;
+ }
+
+ #loginFooter .footerMain .footerInfo p span:first-child {
+     margin-left: 0;
+ }
+
+ #loginFooter .footerMain .footerInfo img {
+     width      : 108px;
+     height     : 40px;
+     margin-left: 20px;
+ }
+
+ #loginFooter .footerMain .footerInfo img:first-child {
+     margin-left: 0;
+ }
+
+ /* 注册页 */
+ /* 注册页中部 */
+ #loginMiddle .middleMain .registerForm {
+     width      : 310px;
+     padding    : 30px 35px;
+     margin-top : 110px;
+     background : #fff;
+     float      : right;
+     box-shadow : 0 0 23px rgba(0, 0, 0, 0.1);
+     user-select: none;
+ }
+
+ .registerForm input {
+     width        : 100%;
+     height       : 50px;
+     margin-bottom: 10px;
+     border       : 1px solid #ccc;
+     text-indent  : 10px;
+     outline      : none;
+ }
+
+ .registerForm strong {
+     color     : green;
+     display   : inline-block;
+     text-align: right;
+     width     : 262px;
+ }
+
+ .registerForm .warn {
+     color: #e93b39;
+ }
+
+ .registerForm .active {
+     border    : 1px solid rgb(255, 173, 119);
+     box-shadow: 0 1px 1px rgba(0, 0, 0, .075), 0 0 5px rgba(240, 127, 5, .4);
+ }
+
+ .registerForm #protocol {
+     width : 14px;
+     float : left;
+     cursor: pointer;
+ }
+
+ .registerForm label {
+     display    : inline-block;
+     cursor     : pointer;
+     height     : 50px;
+     line-height: 50px;
+     width      : 48px;
+ }
+
+ .registerForm>a {
+     font-size  : 8px;
+     float      : left;
+     height     : 50px;
+     line-height: 50px;
+ }
+
+ .registerForm .regbtn {
+     background : #f19108;
+     font-size  : 16px;
+     color      : #fff;
+     cursor     : pointer;
+     line-height: 50px;
+ }
+
+ #loginMiddle .middleMain .registerForm .toLogin {
+     width : 310px;
+     height: 20px;
+ }
+
+ #loginMiddle .middleMain .registerForm .toLogin .lg {
+     color          : #f19108;
+     text-decoration: none;
+ }
+
+ /* 注册页协议 */
+ #protocolInfo {
+     height    : 100%;
+     width     : 100%;
+     background: rgba(0, 0, 0, 0.2);
+     position  : fixed;
+     top       : 0;
+     left      : 0;
+     z-index   : 10;
+     display   : none
+ }
+
+ #protocolInfo .protocolCont {
+     width     : 800px;
+     height    : 500px;
+     background: #fff;
+     border    : 10px solid #ccc;
+     position  : absolute;
+     top       : 0;
+     left      : 0;
+     right     : 0;
+     bottom    : 0;
+     margin    : auto;
+ }
+
+ #protocolInfo .protocolCont .protocolTitle {
+     width      : 100%;
+     height     : 50px;
+     background : #f5f5f5;
+     font-size  : 24px;
+     line-height: 50px;
+     text-align : center;
+ }
+
+ #protocolInfo .protocolCont .protocolTitle strong {
+     font-size  : 35px;
+     line-height: 50px;
+     position   : absolute;
+     right      : 10px;
+     top        : 0;
+     cursor     : pointer;
+ }
+
+ #protocolInfo .protocolCont .protocolMain {
+     width : 760px;
+     height: 330px;
+     ;
+     padding : 10px 20px;
+     overflow: auto;
+ }
+
+ #protocolInfo .protocolCont .protocolConfirm {
+     width     : 760px;
+     height    : 80px;
+     padding   : 10px 20px;
+     background: #f5f5f5;
+     font-size : 14px;
+     text-align: center;
+ }
+
+ #protocolInfo .protocolCont .protocolConfirm p {
+     font-size  : 16px;
+     font-weight: bold;
+ }
+
+ #protocolInfo .protocolCont .protocolConfirm button {
+     width     : 248px;
+     height    : 38px;
+     text-align: center;
+     background: #020202;
+     color     : #fff;
+     margin-top: 10px;
+     cursor    : pointer;
+ }
+
+ /* 首页 */
+ /* 首页头部 */
+ #Header {
+     width : 100%;
+     height: 180px;
+ }
+
+ #Header .headerMain {
+     width   : 1200px;
+     height  : 130px;
+     margin  : 0 auto;
+     overflow: hidden;
+     position: relative;
+ }
+
+ #Header .headerMain h1 {
+     width          : 190px;
+     height         : 80px;
+     background     : url(../img/secoo.jpg);
+     background-size: 190px 80px;
+     text-indent    : -9999px;
+     margin         : 25px auto;
+ }
+
+ #Header .headerMain h1 a {
+     display: block;
+     width  : 100%;
+     height : 100%;
+ }
+
+ #Header .headerMain .headerBar {
+     position: absolute;
+     right   : 0;
+     bottom  : 40px;
+ }
+
+ #Header .headerMain .headerBar li {
+     float      : left;
+     height     : 28px;
+     line-height: 28px;
+     padding    : 0 20px;
+     border-left: 1px solid #ccc;
+ }
+
+ #Header .headerMain .headerBar li:nth-child(1) {
+     border: none
+ }
+
+ #Header .headerMain .headerBar li a:hover {
+     color: #ffb81c
+ }
+
+ #Header .headerNav {
+     width     : 100%;
+     height    : 50px;
+     background: #000;
+ }
+
+ #Header .headerNav .navMain {
+     width : 1200px;
+     height: 100%;
+     margin: 0 auto;
+ }
+
+ #Header .headerNav .navMain>ul {
+     width   : 900px;
+     height  : 100%;
+     float   : left;
+     position: relative;
+ }
+
+ #Header .headerNav .navMain>ul>li {
+     float      : left;
+     height     : 50px;
+     line-height: 50px;
+ }
+
+ #Header .headerNav .navMain>ul>li>a {
+     display        : block;
+     height         : 50px;
+     padding        : 0 25px;
+     color          : #ffb81c;
+     text-decoration: none;
+     font-size      : 14px;
+ }
+
+ #Header .headerNav .navMain>ul>li:nth-child(1) a {
+     padding-left: 0;
+ }
+
+ #Header .headerNav .navMain>ul>li:hover>a {
+     color: #fff
+ }
+
+ #Header .headerNav .navMain>ul>li .menu {
+     width     : 1200px;
+     padding   : 50px 20px;
+     position  : absolute;
+     top       : 50px;
+     left      : -20px;
+     display   : none;
+     background: #fff;
+     z-index   : 10;
+ }
+
+ #Header .headerNav .navMain>ul>li:hover .menu {
+     display: block;
+ }
+
+ #Header .headerNav .navMain>ul>li .menu .categoryTitle {
+     position   : absolute;
+     top        : 0;
+     left       : 20px;
+     font-size  : 14px;
+     font-weight: bold;
+ }
+
+ #Header .headerNav .navMain>ul>li .menu .brandTitle {
+     position   : absolute;
+     top        : 0;
+     left       : 420px;
+     font-size  : 14px;
+     font-weight: bold;
+ }
+
+ #Header .headerNav .navMain>ul>li .menu .menu_category {
+     width       : 400px;
+     height      : 100%;
+     float       : left;
+     column-count: 2;
+ }
+
+ #Header .headerNav .navMain>ul>li .menu .menu_brand {
+     width       : 600px;
+     height      : 100%;
+     float       : left;
+     column-count: 3;
+ }
+
+ #Header .headerNav .navMain>ul>li .menu a {
+     font-size: 13px;
+     color    : #666666;
+ }
+
+ /* 头部提示框 */
+ #carterror {
+     width      : 100%;
+     height     : 100%;
+     background : rgba(0, 0, 0, 0.2);
+     position   : fixed;
+     left       : 0;
+     top        : 0;
+     display    : none;
+     z-index    : 20;
+     user-select: none;
+ }
+
+ #carterror .carterrorMain {
+     width     : 380px;
+     height    : 168px;
+     position  : fixed;
+     top       : calc(50% - 84px);
+     left      : calc(50% - 190px);
+     background: #fff;
+     border    : 5px solid #ccc;
+ }
+
+ #carterror .carterrorMain .close {
+     height     : 30px;
+     background : #f5f5f5;
+     line-height: 30px;
+     padding    : 0 10px;
+     font-size  : 14px;
+ }
+
+ #carterror .carterrorMain .close span {
+     float : right;
+     cursor: pointer;
+ }
+
+ #carterror .carterrorMain .info {
+     height     : 80px;
+     line-height: 80px;
+     text-align : center;
+     font-size  : 16px;
+ }
+
+ #carterror .carterrorMain .btn {
+     height     : 58px;
+     line-height: 30px;
+     text-align : center;
+     font-size  : 14px;
+ }
+
+ #carterror .carterrorMain .btn a {
+     display        : block;
+     height         : 30px;
+     width          : 76px;
+     background     : #e93b39;
+     color          : #fff;
+     float          : right;
+     margin-right   : 90px;
+     text-decoration: none;
+ }
+
+ #carterror .carterrorMain .btn a:nth-child(1) {
+     float       : left;
+     margin-left : 90px;
+     margin-right: 0;
+ }
+
+ /* 头部搜索区域 */
+ #Header .headerNav .navMain .navSearch {
+     width : 300px;
+     height: 50px;
+     float : right;
+ }
+
+ #Header .headerNav .navMain .navSearch a {
+     display    : block;
+     width      : 28px;
+     height     : 50px;
+     line-height: 50px;
+     color      : #ffb81c;
+     font-size  : 14px;
+     float      : right;
+ }
+
+ #Header .headerNav .navMain .navSearch a:hover {
+     color          : #fff;
+     text-decoration: none;
+ }
+
+ /* 首页banner区域 */
+ /* 遮罩 */
+ .bg-mask {
+     position          : absolute;
+     left              : 0;
+     top               : 0;
+     width             : 100%;
+     height            : 100%;
+     background-color  : rgba(0, 0, 0, 0.2);
+     opacity           : 0;
+     -webkit-transition: opacity linear 0.2s;
+     -o-transition     : opacity linear 0.2s;
+     transition        : opacity linear 0.2s;
+ }
+
+ #banner {
+     width: 100%;
+ }
+
+ #banner .bannerMain {
+     width : 1200px;
+     height: 980px;
+     margin: 20px auto;
+ }
+
+ .bannerMain .secoo-trend {
+     width : 530px;
+     height: 980px;
+     float : left;
+ }
+
+ .bannerMain .secoo-trend a .top-img {
+     width   : 530px;
+     height  : 790px;
+     position: relative;
+ }
+
+ .bannerMain .secoo-trend a .top-img:hover .bg-mask {
+     opacity: 1;
+ }
+
+ .bannerMain .secoo-trend a .bottom-img {
+     width     : 530px;
+     height    : 150px;
+     margin-top: -40px;
+     position  : relative;
+ }
+
+ .bannerMain .international-brands {
+     width : 650px;
+     height: 410px;
+     float : right;
+ }
+
+ .bannerMain .international-brands a .left-img {
+     width       : 266px;
+     height      : 410px;
+     float       : right;
+     margin-right: -96px;
+     position    : relative;
+ }
+
+ .bannerMain .international-brands a .right-img {
+     width   : 480px;
+     height  : 410px;
+     float   : right;
+     position: relative;
+ }
+
+ .bannerMain .international-brands a .right-img:hover .bg-mask {
+     opacity: 1;
+ }
+
+ .bannerMain .banner-video {
+     width     : 650px;
+     height    : 550px;
+     margin-top: 20px;
+     float     : right;
+     position  : relative;
+     cursor: pointer;
+ }
+ .banner-video:hover .bg-mask{
+     opacity: 1;
+ }
+
+ /* 首页editorPick区域 */
+ #editorPick {
+     width: 100%;
+ }
+
+ #editorPick .editorPickMain {
+     width   : 1200px;
+     margin  : 50px auto;
+     position: relative;
+     overflow: hidden;
+ }
+
+ #editorPick .editorPickMain .editorPickTitle {
+     width        : 100%;
+     height       : 38px;
+     margin-bottom: 40px;
+     background   : url(//mpic.secooimg.com/images/2018/11/07/editor-pick.png) no-repeat center/266px 38px, url(//mpic.secooimg.com/images/2018/11/07/title-line.png) no-repeat bottom;
+ }
+
+ #editorPick .editorPickMain .editorPickList {
+     height  : 400px;
+     position: absolute;
+     left    : -1200px;
+     top     : 78px;
+     z-index : 20;
+     overflow: hidden;
+ }
+
+ #editorPick .editorPickMain .editorPickList .productList {
+     width   : 1200px;
+     overflow: hidden;
+     float   : left;
+ }
+
+ #editorPick .editorPickMain .editorPickList .productList li {
+     width      : 232px;
+     height     : 400px;
+     margin-left: 10px;
+     float      : left;
+     background : #f5f5f5;
+     position   : relative;
+ }
+
+ #editorPick .editorPickMain .editorPickList .productList li:nth-child(1) {
+     margin-left: 0;
+ }
+
+ #editorPick .editorPickMain .editorPickList .productList li a {
+     display        : block;
+     width          : 232px;
+     height         : 400px;
+     text-decoration: none;
+ }
+
+ #editorPick .editorPickMain .editorPickList .productList li a .product-img {
+     width : 232px;
+     height: 232px;
+ }
+
+ #editorPick .editorPickMain .editorPickList .productList li a .product-img img {
+     display: block;
+     width  : 232px;
+     height : 232px;
+ }
+
+ #editorPick .editorPickMain .editorPickList .productList li a .product-img .product-img-mask {
+     width           : 232px;
+     height          : 232px;
+     background-color: rgba(0, 0, 0, 0.1);
+     opacity         : 0.3;
+     position        : absolute;
+     top             : 0;
+     left            : 0;
+ }
+
+ #editorPick .editorPickMain .editorPickList .productList li a .product-details {
+     width  : 192px;
+     height : 125px;
+     padding: 20px 20px 0;
+ }
+
+ #editorPick .editorPickMain .editorPickList .productList li a .product-details p {
+     text-overflow: ellipsis;
+     overflow     : hidden;
+     white-space  : nowrap;
+     color        : #000;
+ }
+
+ #editorPick .editorPickMain .editorPickList .productList li a .product-details .product-name {
+     height     : 28px;
+     font-size  : 18px;
+     font-family: 'CASLON224STD-BOOKITALIC';
+ }
+
+ #editorPick .editorPickMain .editorPickList .productList li a .product-details .product-desc {
+     height   : 44px;
+     font-size: 12px;
+ }
+
+ #editorPick .editorPickMain .editorPickList .productList li a .product-details .line {
+     width           : 80px;
+     height          : 2px;
+     margin-bottom   : 18px;
+     background-color: #000;
+ }
+
+ #editorPick .editorPickMain .editorPickList .productList li a .product-details .product-price {
+     font-family: 'FuturaLT-Light';
+     font-size  : 14px;
+ }
+
+ #editorPick .editorPickMain .editorPickList .productList li:hover a p {
+     color: #ffb81c
+ }
+
+ #editorPick .editorPickMain .editorPickList .productList li:hover {
+     border-bottom: #ffb81c 10px solid;
+     margin-top   : -10px;
+ }
+
+ #editorPick .editorPickMain .editorPickbtn {
+     width     : 100%;
+     height    : 57px;
+     margin-top: 468px;
+     background: url(//mpic.secooimg.com/images/2018/11/07/editor-pick-logo.png) no-repeat center/128px 57px, url(//mpic.secooimg.com/images/2018/11/07/bottom-line.png) no-repeat 100%/100%;
+     position  : relative;
+ }
+
+ #editorPick .editorPickMain .editorPickbtn .prev {
+     position       : absolute;
+     top            : 0;
+     left           : calc(50% - 62px);
+     width          : 60px;
+     height         : 100%;
+     font-size      : 57px;
+     line-height    : 50px;
+     text-decoration: none;
+ }
+
+ #editorPick .editorPickMain .editorPickbtn .next {
+     position       : absolute;
+     top            : 0;
+     left           : 50%;
+     width          : 60px;
+     height         : 100%;
+     font-size      : 57px;
+     line-height    : 50px;
+     text-decoration: none;
+     text-align     : right;
+ }
+
+ /* 首页wardrobe区域 */
+ #wardrobe {
+     width: 100%;
+ }
+
+ #wardrobe .wardrobeMain {
+     width : 1200px;
+     margin: 50px auto;
+ }
+
+ #wardrobe .wardrobeMain a {
+     display        : block;
+     width          : 1200px;
+     height         : 630px;
+     text-decoration: none;
+ }
+
+ #wardrobe .wardrobeMain a .left-img {
+     width   : 950px;
+     height  : 630px;
+     float   : left;
+     position: relative;
+ }
+
+ #wardrobe .wardrobeMain a .left-img:hover .bg-mask {
+     opacity: 1;
+ }
+
+ #wardrobe .wardrobeMain a .left-img img {
+     width  : 100%;
+     height : 100%;
+     display: block;
+ }
+
+ #wardrobe .wardrobeMain a .right-img {
+     width      : 641px;
+     height     : 630px;
+     float      : right;
+     margin-left: -100%;
+     position   : relative;
+ }
+
+ #wardrobe .wardrobeMain a .right-img img {
+     width  : 100%;
+     height : 100%;
+     display: block;
+ }
+
+ /* 首页recommend区域 */
+ #recommend {
+     width: 100%;
+ }
+
+ #recommend .recommendMain {
+     width   : 1200px;
+     margin  : 50px auto;
+     overflow: hidden;
+ }
+
+ #recommend .recommendMain ul {
+     width: 100%;
+ }
+
+ #recommend .recommendMain ul li {
+     width      : 380px;
+     height     : 600px;
+     float      : left;
+     margin-left: 30px;
+     position   : relative;
+ }
+
+ #recommend .recommendMain ul li:hover .bg-mask {
+     opacity: 1;
+ }
+
+ #recommend .recommendMain ul li:nth-child(1) {
+     margin-left: 0
+ }
+
+ #recommend .recommendMain ul li a {
+     display: block;
+     width  : 380px;
+     height : 600px;
+ }
+
+ #recommend .recommendMain ul li a img {
+     display: block;
+     width  : 380px;
+     height : 600px;
+ }
+
+ /* 首页SecooInfo区域 */
+ #secooInfo {
+     width     : 100%;
+     padding   : 20px 0;
+     background: #ffb81c;
+ }
+
+ #secooInfo .secooInfoMain {
+     width : 1200px;
+     margin: 50px auto;
+ }
+
+ #secooInfo .secooInfoMain .secooInfTitle {
+     width        : 100%;
+     height       : 109px;
+     text-align   : center;
+     margin-bottom: 50px;
+ }
+
+ #secooInfo .secooInfoMain .secooInfTitle img {
+     height: 100%;
+ }
+
+ #secooInfo .secooInfoMain ul {
+     width   : 100%;
+     overflow: hidden;
+ }
+
+ #secooInfo .secooInfoMain ul li {
+     width      : 380px;
+     height     : 504px;
+     float      : left;
+     margin-left: 30px;
+     position   : relative;
+ }
+
+ #secooInfo .secooInfoMain ul li:hover .bg-mask {
+     opacity: 1;
+ }
+
+ #secooInfo .secooInfoMain ul li:nth-child(1) {
+     margin-left: 0
+ }
+
+ /* 购物车页面 */
+ #cartList {
+     width     : 100%;
+     background: #f5f5f5;
+     padding   : 60px 0;
+ }
+
+ #cartList .cartListMain {
+     width : 990px;
+     margin: 0 auto;
+ }
+
+ #cartList .cartListMain .loginInfo {
+     height       : 30px;
+     line-height  : 30px;
+     font-size    : 16px;
+     margin-bottom: 20px;
+ }
+
+ #cartList .cartListMain .loginInfo a {
+     margin-left: 20px;
+     color      : red;
+     font-size  : 12px;
+ }
+
+ #cartList .cartListMain table {
+     width: 100%;
+ }
+
+ #cartList .cartListMain table thead tr {
+     width      : 100%;
+     height     : 48px;
+     background : #ccc;
+     color      : #666;
+     font-size  : 14px;
+     line-height: 48px;
+ }
+
+ #cartList .cartListMain table thead tr input {
+     height        : 14px;
+     width         : 14px;
+     vertical-align: middle
+ }
+
+ #cartList .cartListMain table tbody tr {
+     width      : 100%;
+     height     : 118px;
+     background : #fff;
+     color      : #333;
+     font-size  : 12px;
+     line-height: 48px;
+     padding    : 0;
+ }
+
+ #cartList .cartListMain table tbody tr td {
+     text-align    : center;
+     vertical-align: middle;
+ }
+
+ #cartList .cartListMain table tbody tr td .cartPic {
+     float : left;
+     width : 97px;
+     height: 82px;
+ }
+
+ #cartList .cartListMain table tbody tr td .cartPic a {
+     width  : 82px;
+     height : 82px;
+     display: block;
+     border : 1px solid #ccc;
+ }
+
+ #cartList .cartListMain table tbody tr td .cartPic a img {
+     width  : 82px;
+     height : 82px;
+     display: block;
+ }
+
+ #cartList .cartListMain table tbody tr td .cartTitle {
+     width             : 278px;
+     height            : 44px;
+     float             : right;
+     text-align        : left;
+     line-height       : 22px;
+     display           : -webkit-box;
+     -webkit-box-orient: vertical;
+     -webkit-line-clamp: 3;
+     overflow          : hidden;
+ }
+
+ #cartList .cartListMain table tbody tr td .cartAttr {
+     width      : 278px;
+     height     : 38px;
+     float      : right;
+     text-align : left;
+     line-height: 38px;
+ }
+
+ .countNum {
+     width         : 128px;
+     overflow      : hidden;
+     margin-left   : 6px;
+     text-align    : center;
+     display       : inline-block;
+     vertical-align: middle;
+ }
+
+ .countNum .minus {
+     width      : 30px;
+     height     : 30px;
+     float      : left;
+     border     : 1px solid #ccc;
+     font-size  : 14px;
+     line-height: 30px;
+     cursor     : pointer;
+     user-select: none;
+ }
+
+ .countNum .shownum {
+     width        : 60px;
+     height       : 28px;
+     float        : left;
+     border       : 0;
+     border-top   : 1px solid #ccc;
+     border-bottom: 1px solid #ccc;
+     font-size    : 14px;
+     line-height  : 30px;
+     outline      : none;
+     text-align   : center;
+ }
+
+ .countNum .add {
+     width      : 30px;
+     height     : 30px;
+     float      : left;
+     border     : 1px solid #ccc;
+     font-size  : 14px;
+     line-height: 30px;
+     cursor     : pointer;
+     user-select: none;
+ }
+
+ #cartList .cartListMain .cartTotal {
+     width     : 910px;
+     height    : 140px;
+     padding   : 30px 40px;
+     background: #fff;
+     margin-top: 20px;
+ }
+
+ #cartList .cartListMain .cartTotal p {
+     text-align : right;
+     font-size  : 16px;
+     line-height: 30px;
+ }
+
+ #cartList .cartListMain .cartTotal p strong {
+     font-size: 30px;
+     color    : #e93b39;
+ }
+
+ #cartList .cartListMain .cartTotal a {
+     float          : right;
+     width          : 120px;
+     height         : 30px;
+     background     : #d32220;
+     color          : #fff;
+     font-size      : 16px;
+     line-height    : 30px;
+     text-decoration: none;
+     text-align     : center;
+     margin-top     : 10px;
+ }
+
+ /* 商品列表页面 */
+ #goodslist {
+     width     : 100%;
+     background: #ededed;
+     overflow  : hidden;
+ }
+
+ #goodslist .goodslistMain {
+     width : 1200px;
+     margin: 40px auto;
+ }
+
+ #goodslist .goodslistMain .goodsType {
+     font-size    : 20px;
+     height       : 30px;
+     line-height  : 30px;
+     margin-bottom: 20px;
+ }
+
+ #goodslist .goodslistMain ul {
+     width     : 100%;
+     background: #fff;
+     box-shadow: rgb(204, 204, 204) 0px 2px 5px;
+     overflow  : hidden;
+ }
+
+ #goodslist .goodslistMain ul .goodsTitle {
+     width      : 100%;
+     height     : 50px;
+     line-height: 50px;
+ }
+
+ #goodslist .goodslistMain ul .goodsTitle a {
+     height         : 50px;
+     font-size      : 18px;
+     text-decoration: none;
+     display        : block;
+     float          : left;
+     padding        : 0 20px;
+     border-top     : 2px solid transparent;
+ }
+
+ #goodslist .goodslistMain ul .goodsTitle .on {
+     border-top: 2px solid #e93b39;
+     color     : #e93b39;
+ }
+
+ #goodslist .goodslistMain ul .goodsTitle a:nth-child(2) {
+     border-right: 0
+ }
+
+ #goodslist .goodslistMain ul .goodsSearch {
+     width      : 100%;
+     height     : 50px;
+     line-height: 50px;
+     background : #f5f5f5;
+ }
+
+ #goodslist .goodslistMain ul li {
+     width : 240px;
+     height: 360px;
+     margin: 0 23px 60px;
+     float : left;
+     border: 2px solid transparent;
+ }
+
+ #goodslist .goodslistMain ul li:hover {
+     border: 2px solid #ccc;
+ }
+
+ #goodslist .goodslistMain ul li a {
+     text-decoration: none;
+ }
+
+ #goodslist .goodslistMain ul li a img {
+     display: block;
+     width  : 240px;
+     height : 240px;
+ }
+
+ #goodslist .goodslistMain ul li a .line {
+     width        : 220px;
+     margin-left  : 10px;
+     border-top   : 1px solid #aaa;
+     margin-top   : 10px;
+     margin-bottom: 10px;
+ }
+
+ #goodslist .goodslistMain ul li a p {
+     width      : 220px;
+     height     : 40px;
+     padding    : 0 10px;
+     line-height: 20px;
+     font-size  : 13px;
+     overflow   : hidden;
+ }
+
+ #goodslist .goodslistMain ul li a strong {
+     display    : block;
+     width      : 220px;
+     height     : 20px;
+     padding    : 0 10px;
+     line-height: 20px;
+     font-size  : 20px;
+     color      : #e93b39;
+     margin-top : 10px;
+ }
+
+ #goodslist .goodslistMain ul li a i {
+     width      : 220px;
+     height     : 20px;
+     padding    : 0 10px;
+     line-height: 20px;
+     font-size  : 13px;
+     text-align : right;
+     display    : none;
+ }
+
+ #goodslist .goodslistMain ul li:hover a i {
+     display: block;
+ }
+
+ /* 商品详情页面 */
+ #goodsdetails {
+     width     : 100%;
+     background: #ededed;
+     overflow  : hidden;
+ }
+
+ #goodsdetails .goodsdetailsMain {
+     width   : 1200px;
+     margin  : 40px auto;
+     position: relative;
+ }
+
+ #goodsdetails .goodsdetailsMain .goodsdetailsType {
+     font-size    : 20px;
+     height       : 30px;
+     line-height  : 30px;
+     margin-bottom: 20px;
+ }
+
+ #goodsdetails .goodsdetailsMain article {
+     width     : 1100px;
+     background: #fff;
+     box-shadow: rgb(204, 204, 204) 0px 2px 5px;
+     overflow  : hidden;
+     padding   : 50px;
+ }
+
+ #goodsdetails .goodsdetailsMain article .goodsPic {
+     width : 483px;
+     height: 482px;
+     float : left;
+ }
+
+ #goodsdetails .goodsdetailsMain article .goodsPic .thumbnail {
+     float : left;
+     border: 1px solid #ccc;
+     width : 80px;
+     height: 400px;
+ }
+
+ #goodsdetails .goodsdetailsMain article .goodsPic .thumbnail li {
+     width : 80px;
+     height: 80px;
+ }
+
+ #goodsdetails .goodsdetailsMain article .goodsPic .thumbnail li a {
+     display: block;
+     width  : 80px;
+     height : 80px;
+ }
+
+ #goodsdetails .goodsdetailsMain article .goodsPic .thumbnail li a img {
+     width  : 80px;
+     height : 80px;
+     display: block;
+ }
+
+ #goodsdetails .goodsdetailsMain article .goodsPic .normalPic {
+     float      : left;
+     border     : 1px solid #ccc;
+     width      : 400px;
+     height     : 400px;
+     border-left: 0;
+     position   : relative;
+ }
+
+ #goodsdetails .goodsdetailsMain article .goodsPic .normalPic img {
+     display: block;
+     width  : 400px;
+     height : 400px;
+ }
+
+ #goodsdetails .goodsdetailsMain article .goodsInfo {
+     width: 600px;
+     float: right;
+ }
+
+ #goodsdetails .goodsdetailsMain article .goodsInfo .goodsTitle {
+     height     : 50px;
+     line-height: 25px;
+     font-size  : 20px;
+     overflow   : hidden;
+     margin     : 25px;
+ }
+
+ #goodsdetails .goodsdetailsMain article .goodsInfo .goodsPrice {
+     height     : 50px;
+     line-height: 50px;
+     font-size  : 30px;
+     overflow   : hidden;
+     margin     : 25px;
+     color      : #e93b39;
+ }
+
+ #goodsdetails .goodsdetailsMain article .goodsInfo .goodsCSA {
+     height     : 120px;
+     line-height: 40px;
+     font-size  : 16px;
+     overflow   : hidden;
+     margin     : 25px;
+ }
+
+ #goodsdetails .goodsdetailsMain article .goodsInfo a {
+     display        : block;
+     background     : #e93b39;
+     color          : #fff;
+     width          : 160px;
+     height         : 40px;
+     text-align     : center;
+     line-height    : 40px;
+     text-decoration: none;
+     margin-top     : 25px;
+     margin-bottom  : 25px;
+     float          : right;
+     margin-right   : 25px;
+ }
+
+ #fdj {
+     width   : 400px;
+     height  : 400px;
+     position: absolute;
+     top     : 100px;
+     left    : 550px;
+     border  : 1px solid #ccc;
+     display : none;
+     overflow: hidden;
+ }
+
+ #fdj img {
+     width   : 800px;
+     height  : 800px;
+     display : block;
+     position: absolute;
+     top     : 0;
+     left    : 0;
+ }
+
+ #goodsdetails .goodsdetailsMain article .goodsPic .normalPic .picmask {
+     width     : 200px;
+     height    : 200px;
+     background: rgba(0, 0, 0, 0.5);
+     z-index   : 100;
+     position  : absolute;
+     top       : 0;
+     left      : 0;
+     display   : none;
+ }
+
+ #cartsuccess {
+     width      : 100%;
+     height     : 100%;
+     background : rgba(0, 0, 0, 0.2);
+     position   : fixed;
+     left       : 0;
+     top        : 0;
+     display    : none;
+     z-index    : 20;
+     user-select: none;
+ }
+
+ #cartsuccess .cartsuccessMain {
+     width     : 380px;
+     height    : 168px;
+     position  : fixed;
+     top       : calc(50% - 84px);
+     left      : calc(50% - 190px);
+     background: #fff;
+     border    : 5px solid #ccc;
+ }
+
+ #cartsuccess .cartsuccessMain .close {
+     height     : 30px;
+     background : #f5f5f5;
+     line-height: 30px;
+     padding    : 0 10px;
+     font-size  : 14px;
+ }
+
+ #cartsuccess .cartsuccessMain .close span {
+     float : right;
+     cursor: pointer;
+ }
+
+ #cartsuccess .cartsuccessMain .info {
+     height     : 80px;
+     line-height: 80px;
+     text-align : center;
+     font-size  : 16px;
+ }
+
+ #cartsuccess .cartsuccessMain .btn {
+     height     : 58px;
+     line-height: 30px;
+     text-align : center;
+     font-size  : 14px;
+ }
+
+ #cartsuccess .cartsuccessMain .btn a {
+     display        : block;
+     height         : 30px;
+     width          : 76px;
+     background     : #e93b39;
+     color          : #fff;
+     float          : right;
+     margin-right   : 90px;
+     text-decoration: none;
+ }
+
+ #cartsuccess .cartsuccessMain .btn a:nth-child(1) {
+     float       : left;
+     margin-left : 90px;
+     margin-right: 0;
+ }
